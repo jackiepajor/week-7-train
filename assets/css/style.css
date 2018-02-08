@@ -1,0 +1,66 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.jumbotron {
+    background-color: rgb(10, 5, 73);
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px black;
+    margin: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    opacity: 0.8;
+}
+
+/* Current Train Schedule */
+#top-panel {
+    margin: 40px;
+    opacity: 0.9;
+}
+
+/* Add a Train */
+#bottom-panel {
+    margin: 40px;
+    opacity: 0.9;
+}
+
+/* Panel Headers */
+.panel .panel-heading {
+    background-color: rgb(38, 100, 182);
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/* Submit Button */
+#submit {
+    background-color: rgb(38, 100, 182);
+    color: white;
+    border-radius: 5px;
+    border-color: yellow;
+}
+
+#submit:hover {
+    background-color: black;
+}
+
+/* Footer */
+.footer {
+    background-color: rgb(10, 5, 73);
+    opacity: 0.8;
+    color: white;
+    font-size: 10px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
